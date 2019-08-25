@@ -24,8 +24,10 @@ public class MenuFind {
                 break;
             case 2:
                 ServiceMenuFind.findAdress();
+                break;
             case 3:
                 ServiceMenuFind.findNumberPhone();
+                break;
             case 4:
                 return TypeMenu.MAIN;
 
