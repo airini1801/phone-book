@@ -33,6 +33,7 @@ public class MenuMain {
                 break;
             case 4:
                 ServiceMenuAdd.allPrintContact();
+                break;
         }
         return TypeMenu.MAIN;
     }
