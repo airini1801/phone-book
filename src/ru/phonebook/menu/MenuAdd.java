@@ -19,11 +19,11 @@ public class MenuAdd {
         switch (choice) {
             case 1:
                 ServiceMenuAdd.add();
-                break;
-            case 2 :
+                return TypeMenu.ADD_NUMBER;
+            default :
                return TypeMenu.MAIN;
         }
-        return TypeMenu.ADD_NUMBER;
+
 
     }
 }

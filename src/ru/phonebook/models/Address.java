@@ -1,6 +1,6 @@
 package ru.phonebook.models;
 
-public class Adress {
+public class Address {
     public void setNameStreet(String nameStreet) {
         this.nameStreet = nameStreet;
     }
@@ -11,7 +11,7 @@ public class Adress {
 
     @Override
     public String toString() {
-        return "Adress{" +
+        return "Address{" +
                 "nameStreet='" + nameStreet + '\'' +
                 ", numberHouse=" + numberHouse +
                 '}';
@@ -28,7 +28,7 @@ public class Adress {
         return numberHouse;
     }
 
-    public Adress(String nameStreet, int numberHouse) {
+    public Address(String nameStreet, int numberHouse) {
         this.nameStreet = nameStreet;
         this.numberHouse = numberHouse;
     }

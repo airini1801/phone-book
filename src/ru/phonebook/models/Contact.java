@@ -1,24 +1,21 @@
 package ru.phonebook.models;
 
-import java.util.ArrayList;
-import java.util.List;
-
 public class Contact {
     @Override
     public String toString() {
         return "Contact{" + user +
-                ", " + adress +
+                ", " + address +
                 ", numberPhone=" + numberPhone +
                 '}';
     }
 
     private User user;
-    private Adress adress;
+    private Address address;
     private int numberPhone;
 
-    public Contact(User user, Adress adress, int numberPhone) {
+    public Contact(User user, Address address, int numberPhone) {
         this.user = user;
-        this.adress = adress;
+        this.address = address;
         this.numberPhone = numberPhone;
     }
 
@@ -30,12 +27,12 @@ public class Contact {
         this.user = user;
     }
 
-    public Adress getAdress() {
-        return adress;
+    public Address getAddress() {
+        return address;
     }
 
-    public void setAdress(Adress adress) {
-        this.adress = adress;
+    public void setAddress(Address address) {
+        this.address = address;
     }
 
     public int getNumberPhone() {

@@ -23,7 +23,7 @@ public class MenuFind {
                 ServiceMenuFind.findSurname();
                 break;
             case 2:
-                ServiceMenuFind.findAdress();
+                ServiceMenuFind.findAddress();
                 break;
             case 3:
                 ServiceMenuFind.findNumberPhone();
